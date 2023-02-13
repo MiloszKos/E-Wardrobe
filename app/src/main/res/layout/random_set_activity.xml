@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/random_set"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1C1C1"
+    tools:context=".RandomSetScreen">
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginBottom="20dp" />\
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="127dp"
+        android:layout_height="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="599dp"
+        android:background="@mipmap/ic_camera"
+        android:text="Zatwierdź" />
+
+    <Button
+        android:id="@+id/decline"
+        android:layout_width="128dp"
+        android:layout_height="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="598dp"
+        android:layout_marginRight="60dp"
+        android:layout_toEndOf="@+id/accept"
+        android:layout_toRightOf="@+id/accept"
+        android:background="@mipmap/ic_gallery"
+        android:text="Odrzuć" />
+</RelativeLayout>

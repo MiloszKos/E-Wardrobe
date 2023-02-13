@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Strona główna" android:id="@+id/item4"></item>
+    <item android:title="Garderoba" android:id="@+id/item1"></item>
+    <item android:title="Stroje" android:id="@+id/item2"></item>
+    <item android:title="Oferty" android:id="@+id/item3"></item>
+
+
+
+</menu>

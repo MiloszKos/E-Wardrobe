@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/cloth_preview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+<TextView
+    android:id="@+id/set_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kolor"
+    android:textSize="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose category"
+         />
+    <TextView
+        android:id="@+id/set_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategoria ubrania"
+        android:textSize="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose type"/>
+
+
+    <TextView
+        android:id="@+id/set_heat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sezon"
+        android:textSize="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose heat level"/>
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potwierdź" />
+
+
+</LinearLayout>

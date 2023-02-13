@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">E-Garderoba</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="_15">15</string>
+    <string name="u2103">℃</string>
+    <string name="condition">Condition</string>
+    <string name="description">Description</string>
+    <string name="loading_data_please_wait">Wycztuję dane. Proszę, czekaj...</string>
+    <string name="temp">temp</string>
+
+
+    <string-array name="categories">
+        <item>Góra</item>
+        <item>Dół</item>
+        <item>Obuwie</item>
+        <item>Okrycie wierzchnie</item>
+        <item>Komplet</item>
+    </string-array>
+
+    <string-array name="categoriesforspinner">
+        <item>Wybierz...</item>
+        <item>Góra</item>
+        <item>Dół</item>
+        <item>Obuwie</item>
+        <item>Okrycie wierzchnie</item>
+        <item>Komplet</item>
+    </string-array>
+
+    <string-array name="colour">
+        <item>Czarny</item>
+        <item>Biały</item>
+        <item>Szary</item>
+        <item>Brązowy</item>
+        <item>Niebieski</item>
+        <item>Fioletowy</item>
+        <item>Różowy</item>
+        <item>Czerwony</item>
+        <item>Pomarańczowy</item>
+        <item>Zółty</item>
+        <item>Zielony</item>
+    </string-array>
+
+    <string-array name="heatlvl">
+        <item>Wiosna/Jesień</item>
+        <item>Lato</item>
+        <item>Zima</item>
+    </string-array>
+
+    <string-array name="cloth_name">
+        <item>Podkoszulek</item>
+        <item>Top</item>
+        <item>Bluza</item>
+        <item>Sweter</item>
+        <item>Koszula</item>
+        <item>Spodnie</item>
+        <item>Spódnica</item>
+        <item>Spodenki</item>
+        <item>Sukienka</item>
+        <item>Suknia</item>
+        <item>Kurtka</item>
+        <item>Płaszcz</item>
+        <item>Żakiet</item>
+        <item>Marynarka</item>
+        <item>Garnitur</item>
+        <item>Adidasy</item>
+        <item>Tenisówki</item>
+        <item>Botki</item>
+        <item>Kozaki</item>
+        <item>Półbuty</item>
+        <item>Czółenka</item>
+    </string-array>
+
+    <string-array name="style">
+        <item>Casual</item>
+        <item>Business Casual</item>
+        <item>Smart-Casual</item>
+        <item>Semi-Formal</item>
+
+    </string-array>
+</resources>
