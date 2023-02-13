@@ -4,6 +4,9 @@ Projekt i implementacja aplikacji umożliwiającej zarządzanie ubiorem za pośr
 Jej główną funkcją jest generowanie strojów z użyciem algorytmów przetwarzających informacje o pogodzie, stylu oraz kolorystyce ubrań.
 Aplikacja w fazie rozwojowej.
 
+Repozytorium do wglądu, na potrzeby rekrutacji.
+Obowiązują prawa autorskie.
+
 Pamiętaj aby zupgradować Gradle!
 Aplikacja działa na systemach Android 8 wzwyż.
 
